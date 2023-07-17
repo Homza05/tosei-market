@@ -1,0 +1,93 @@
+.sidenav {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav-img {
+    margin-right: 13px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    margin-left: 26px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.sidenav-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.sidenav-link {
+    padding: 6px 0px 6px 0px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+
+    line-height: 20px;
+    color: #000000;
+    display: block;
+    margin-bottom: 28px;
+    margin-left: 26px;
+}
+
+.sidenav-link:hover {
+    color: black;
+    transition: ease-out 100ms;
+    transform: scale(1.1);
+    text-shadow: #FFF 0px 0px 5px,
+        #FFF 0px 0px 10px,
+        #FFF 0px 0px 15px,
+        red 0px 0px 20px,
+        red 0px 0px 30px,
+        red 0px 0px 40px,
+        red 0px 0px 50px,
+        red 0px 0px 75px;
+}
+
+.sidenav-icons {
+    margin-left: 26px;
+    position: absolute;
+    bottom: 10%;
+}
+
+.sidenav-icon-whatsapp {
+    background: #48C95F;
+    border-radius: 50%;
+    padding: 5px 7px;
+}
+
+.sidenav-icon-instagram {
+    border-radius: 50%;
+    background: linear-gradient(43.94deg, #EEA054 16.16%, #D64763 50.11%, #B62A99 83.68%);
+    padding: 5px 7px;
+}
+
+.sidenav-icon-youtube {
+    background: #F40000;
+    border-radius: 50%;
+    padding: 5px 7px;
+}
+
+.message {
+    color: #fff;
+}
+
+
+.main {
+    margin-left: 200px;
+}

@@ -1,0 +1,87 @@
+.shop-block {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.shop-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.shop-card {
+    width: 31%;
+}
+
+.shoping-card-container {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 31%;
+    border: 1px dashed #CD0000;
+    border-radius: 9px;
+    padding: 64px 0px 113px 0px;
+}
+
+.shop-img {
+    margin-right: 41px;
+    width: 371px;
+    height: 557px;
+}
+
+.purchase {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.shop-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    margin-top: 17px;
+    padding: 0 0 0 0;
+    /* #000000 */
+
+    color: #000000;
+}
+
+
+.shop-subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 0 0 0;
+    /* #8B8B8B */
+    padding: 0 0 0 0;
+    color: #8B8B8B;
+}
+
+
+
+
+.shop-mail {
+    margin-left: 55px;
+    margin-top: 19px;
+
+}
+
+
+.shoping-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}

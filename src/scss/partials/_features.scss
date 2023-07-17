@@ -1,0 +1,36 @@
+.Advantages-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+
+.features-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.features-card {
+    width: 25%;
+
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 110%;
+    color: #000000;
+    margin: 10px 0 10px 0 ;
+}
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8B8B8B;
+    margin: 0px;
+}

@@ -1,0 +1,24 @@
+@import '_variables.scss';
+
+
+body {
+  font-family: $based-font-family;
+  font-size: $based-font-size;
+  color: $based-text-color;
+  background: #fff;
+  line-height: 1.5;
+  background: rgba(247, 247, 249, 1);
+}
+
+.container {
+  max-width: 1030px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+

@@ -1,0 +1,65 @@
+.Review-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 71px 0 23px 0;
+    color: #000000;
+    display: inline-block;
+}
+
+
+.youtube-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-img {
+    margin-right: 36px;
+}
+
+.flex-cars {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.flex-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.flex-span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8B8B8B;
+    margin-top: 13px;
+}
+
+
+.flex-list {
+
+
+
+    &-item {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #8B8B8B;
+    }
+
+    &-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .dot {
+        font-size: 15px;
+    }
+}
