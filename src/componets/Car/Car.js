@@ -13,7 +13,7 @@ const Car = props => {
                     <div className="card-block__title">
                         <Link to={`/car/CarItem`} element={<CarItem/>}>
                             <h3 className="card-title">{props.name}</h3>
-
+                            git remote add origin https://github.com/Homza05/tosei-market.git
                         </Link>
                     </div>
                     <span className="card-black">Объем двигателя<span
