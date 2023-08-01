@@ -180,15 +180,17 @@ const Home = () => {
             {/*<button onClick={postData}>*/}
             {/*    POST*/}
             {/*</button>*/}
-            <Header></Header>
-            <MainBlock/>
 
-            <Checkbox/>
-            <PopularCar/>
-            <Cars/>
-            <Advantages/>
-            <Comentsvideo/>
-            <Footer/>
+                <Header></Header>
+                <MainBlock/>
+
+                <Checkbox/>
+                <PopularCar/>
+                <Cars/>
+                <Advantages/>
+                <Comentsvideo/>
+                <Footer/>
+
         </>
     );
 };

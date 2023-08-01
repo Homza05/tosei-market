@@ -10,6 +10,7 @@ import Footer from "../../componets/Footer/Footer";
 const Catalog = () => {
     return (
         <>
+
             <Header/>
             <div className="container cotalog">
                 <CotalogDot/>
@@ -17,10 +18,13 @@ const Catalog = () => {
             </div>
             <Cars/>
             <Footer/>
+
+
         </>
 
 
     );
+
 };
 
 export default Catalog;
